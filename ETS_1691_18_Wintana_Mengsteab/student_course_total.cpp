@@ -1,12 +1,12 @@
+/*
+TASK 1: STUDENT COURSE TOTAL
 INPUT:
 1. Assignment mark
 2. Midterm mark
 3. Final mark
-
 OUTPUT:
 1. Total
 2. Pass or Fail
-
 PROCESS:
 1. Declare variables to hold the input and the results.)
 2. Print prompts and read the inputs.
@@ -21,7 +21,6 @@ PROCESS:
 
 C++ PROGRAM:
 */
-
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -46,8 +45,7 @@ int main()
 
     cout << fixed << setprecision(1);
 
-    cout << "The total mark is " << totalMark
-         << ". Based on this mark, you " << result << endl;
+    cout << "The total mark is " << totalMark << ". Based on this mark, you " << result << endl;
 
     return 0;
 }
