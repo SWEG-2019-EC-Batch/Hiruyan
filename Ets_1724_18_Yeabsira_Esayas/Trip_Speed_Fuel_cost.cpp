@@ -1,3 +1,24 @@
+/* (a) Inputs and Outputs
+
+Inputs: Trip distance (km), Travel time hours and minutes, Fuel use (liters per 100 km), Fuel price per liter (birr)
+
+Outputs: Average speed (km/h, two decimal places), Fuel used (liters, two decimal places), Fuel cost (birr, two decimal places)
+
+   (b) Process
+
+1. Enter the trip distance in km, travel hours, travel minutes, fuel consumption rate per 100 km, and fuel price per liter.
+
+2. Convert the travel time into a decimal number of total hours by dividing the minutes by 60 and adding them to the hours.
+
+3. Calculate the average speed by dividing the distance by the total hours.
+
+4. Calculate the total fuel used by dividing the distance by 100 and multiplying by the fuel rate.
+
+5. Calculate the total fuel cost by multiplying the fuel used by the price per liter.
+
+6. Set the output to show two decimal places and print the average speed, fuel used, and fuel cost */
+
+
 #include <iostream>
 #include <iomanip> // Required for fixed and setprecision
 using namespace std;
