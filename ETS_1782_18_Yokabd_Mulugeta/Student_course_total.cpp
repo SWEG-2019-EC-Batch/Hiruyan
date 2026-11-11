@@ -2,7 +2,7 @@
 Input and Output
 Inputs:
 
-Assignment mark (out of 100), midterm mark (out of 100), final examination mark (out of 100).
+Assignment mark, midterm mark , final examination mark.
 
 Outputs:
 
@@ -11,25 +11,16 @@ Total course mark (one decimal place), Pass or Fail.
 B. Process (numbered steps)
 1 Start the program.
 
-2 Declare variables for assignment, midterm and final marks.
+2 Enter assignment, midterm and final marks.
 
-3 Declare a variable for the total course mark.
+3 Calculate the total using the given percentages.
 
-4 Read the three marks from the user.
+4 Determine Pass or Fail using the conditional operator.
 
-5 Calculate the assignment contribution by multiplying the assignment mark by 20%.
+5 Display the total and result.
 
-6 Calculate the midterm contribution by multiplying the midterm mark by 30%.
+6 End the program.
 
-7 Calculate the final examination contribution by multiplying the final mark by 50%.
-
-8 Add the three contributions to calculate the total.
-
-9 Use the conditional operator to check whether the total is greater than or equal to 50.
-
-10 Display the total with one decimal place and display Pass or Fail.
-
-11 End the program.
 */
 
 #include <iomanip>
