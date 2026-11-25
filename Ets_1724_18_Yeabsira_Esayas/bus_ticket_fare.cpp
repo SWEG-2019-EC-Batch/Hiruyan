@@ -11,7 +11,7 @@ int main()
 
     // Route selection
     cout << "===============================" << endl;
-    cout << "       AVAILABLE ROUTES        " << endl;
+    cout << "      THE AVAILABLE ROUTES        " << endl;
     cout << "===============================" << endl;
     cout << "1. Addis Ababa to Adama (500 ETB, 20 ETB/kg)" << endl;
     cout << "2. Addis Ababa to Hawassa (1200 ETB, 30 ETB/kg)" << endl;
