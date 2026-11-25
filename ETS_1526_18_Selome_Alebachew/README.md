@@ -1,4 +1,5 @@
 IPO ANALYSIS 
+
 INPUT
 1. Accept the traveller's destination code from the available destination options.
 2. Accept the base fare and extra luggage rate for the selected destination.
