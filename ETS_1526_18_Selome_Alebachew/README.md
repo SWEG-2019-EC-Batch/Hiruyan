@@ -1,9 +1,11 @@
+IPO ANALYSIS 
 INPUT
 1. Accept the traveller's destination code from the available destination options.
 2. Accept the base fare and extra luggage rate for the selected destination.
 3. Accept the traveller's age.
 4. Accept the traveller's student status (Y/N).
 5. Accept the weight of the traveller's bag in kilograms.
+
 PROCESSING
 1. Use a switch statement to identify the selected destination based on its assigned code.
 2. Validate the entered age, base fare, extra luggage rate, and bag weight.
@@ -13,6 +15,7 @@ PROCESSING
 6. Check whether the traveller is a student and add an additional 15% discount if applicable.
 7. Calculate the total discount amount based on the base fare.
 8. Calculate the final fare by subtracting the discount amount from the base fare and adding the extra luggage charge.
+
 OUTPUT
 1. Display the departure place (Addis Ababa).
 2. Display the selected destination.
