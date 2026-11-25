@@ -1,4 +1,5 @@
-IPO ANALYSIS 
+IPO ANALYSIS for the bus_ticket_fare C++ document 
+
 
 INPUT
 1. Accept the traveller's destination code from the available destination options.
