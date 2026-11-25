@@ -69,7 +69,7 @@ int main()
         return 0;
     }
 
-    // Calculate extra luggage charge
+    // Calculate extra luggage(bag) charge
     float extra_charge = 0;
     if(weight > MAX_WEIGHT)
     {
@@ -94,7 +94,7 @@ int main()
         if(age <= 12)
             discount = 0.50; // Child
         else if(age >= 60)
-            discount = 0.25; // Elder
+            discount = 0.25; // Elderly
         else
             discount = 0;    // Standard adult non-student
     }
