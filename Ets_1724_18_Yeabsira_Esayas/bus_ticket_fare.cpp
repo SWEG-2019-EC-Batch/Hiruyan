@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     float baseFare = 0, ratePerKg = 0, weight = 0;
@@ -20,7 +19,7 @@ int main()
     cout << "4. Addis Ababa to Dire Dawa (2000 ETB, 40 ETB/kg)" << endl;
     cout << "5. Addis Ababa to Mekelle (2500 ETB, 45 ETB/kg)" << endl;
 
-    cout << "\nSelect your route (1-5): ";
+    cout << "\nSelect the route you want (1-5): ";
     cin >> route;
 
     // Assign base fare and rate per Kg automatically based on route
@@ -52,7 +51,7 @@ int main()
     }
 
     // Input passenger details
-    cout << "Enter the luggage weight (Kg): ";
+    cout << "Enter the luggage(bag) weight (Kg): ";
     cin >> weight;
 
     cout << "Enter passenger age: ";
@@ -123,7 +122,7 @@ int main()
 
     cout << "\nBase fare: " << baseFare << " ETB" << endl;
     cout << "Rate per Kg (Extra Luggage): " << ratePerKg << " ETB" << endl;
-    cout << "Luggage weight: " << weight << " Kg" << endl;
+    cout << "Luggage(bag) weight: " << weight << " Kg" << endl;
     cout << "Extra charge: " << extra_charge << " ETB" << endl;
     cout << "Total fare before discount: " << total_fare << " ETB" << endl;
     cout << "Discount Applied: " << discount * 100 << "%" << endl;
